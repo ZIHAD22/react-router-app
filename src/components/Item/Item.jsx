@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 const Item = (props) => {
   const { strMeal, strCategory, strMealThumb } = props.food;
   return (
-    <div className="w-[350px] h-[450px] m-5 shadow-2xl">
+    <div className="w-[350px] h-[450px] m-5 shadow-2xl rounded-md">
       <div className="m-2 bg-gray-300">
         <img className="h-[200px] w-full" src={strMealThumb} alt="" />
       </div>
