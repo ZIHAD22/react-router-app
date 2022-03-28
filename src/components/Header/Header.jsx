@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="flex justify-around items-center p-4 bg-blue-900 text-white">
-      <span>Ready To Cook</span>
+    <nav className="flex justify-around items-center p-4 bg-[#243b48] text-white">
+      <span>Ready Cook Food</span>
       <div className="">
         <ul className="flex">
           <li className="mx-2">

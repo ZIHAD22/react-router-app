@@ -1,10 +1,12 @@
 import Header from '../components/Header/Header'
+import HeroArea from '../components/HeroArea/HeroArea'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header />
+      <HeroArea />
     </div>
   )
 }
