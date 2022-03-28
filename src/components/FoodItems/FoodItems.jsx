@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "../Item/Item";
 
-const OrderItems = () => {
+const FoodItems = () => {
   return (
     <div>
       <Item />
@@ -9,4 +9,4 @@ const OrderItems = () => {
   );
 };
 
-export default OrderItems;
+export default FoodItems;
