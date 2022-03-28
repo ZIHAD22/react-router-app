@@ -13,7 +13,7 @@ const Item = () => {
       <div className="m-2">
         <h1 className="text-2xl mt-5">Teriyaki Chicken Casserole</h1>
         <h5 className="text-[18px] mt-5">Category: Chicken</h5>
-        <button className="flex px-4 mt-16 py-2 text-white rounded-lg mx-auto bg-[#243b48]">
+        <button className="flex px-4 mt-16 py-2 text-white border-2 font-bold border-[#243b48] rounded-lg mx-auto bg-[#243b48] hover:bg-white hover:text-black duration-500 hover:border-2 hover:font-bold">
           Order Now <ArrowRightIcon className="w-5 h-6 ml-3" />
         </button>
       </div>
