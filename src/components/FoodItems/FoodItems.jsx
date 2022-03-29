@@ -12,7 +12,7 @@ const FoodItems = () => {
   return (
     <div className="grid grid-cols-4 gap-4">
       {foods.map((food) => (
-        <Item food={food} />
+        <Item key={food.idMeal} food={food} />
       ))}
     </div>
   );
