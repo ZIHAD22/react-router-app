@@ -16,7 +16,6 @@ function App() {
         <Route path="foods/:foodId" element={<FoodRecipe />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Outlet />
     </div>
   )
 }
