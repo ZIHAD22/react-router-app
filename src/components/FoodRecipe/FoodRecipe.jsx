@@ -14,19 +14,23 @@ const FoodRecipe = () => {
   }, [foodId]);
   return (
     <div>
-      <div className={`${isLoading ? "hidden" : "grid grid-cols-2"}`}>
+      <div
+        className={`${
+          isLoading ? "hidden" : "grid lg:grid-cols-2 sm:grid-cols-1"
+        }`}
+      >
         <div className="flex justify-center items-center mt-12">
           <img src={recipe.strMealThumb} className="w-3/4" alt="" />
         </div>
         <div className="">
-          <h1 className="text-4xl text-center mt-6 font-medium">
+          <h1 className="text-4xl sm:text-3xl text-center mt-6 font-medium">
             Recipe Name:{" "}
             {recipe.strMeal > 20
               ? recipe.strMeal.slice(0, 20) + "..."
               : recipe.strMeal}
           </h1>
-          <h2 className="text-3xl mt-6">Recipe:</h2>
-          <p className="text-[20px] font-thin mt-2  mr-11">
+          <h2 className="text-3xl mt-6 ">Recipe:</h2>
+          <p className="text-[20px] font-thin mt-2  mr-11 sm:mr-0 sm:p-5">
             {recipe.strInstructions}
           </p>
         </div>

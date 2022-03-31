@@ -48,14 +48,18 @@ const FoodItems = () => {
         <div className="text-center">
           <input
             type="text"
-            className="border-2 placeholder:text-black p-3 border-black rounded-md outline-hidden w-2/4 py-2 my-3"
+            className="border-2 placeholder:text-black p-3 border-black rounded-md outline-hidden w-2/4 sm:w-80 sm:mt-7 py-2 my-3"
             name=""
             id=""
             placeholder="Search Food Recipe And Press Enter"
             onKeyUp={handleSearchEnter}
           />
         </div>
-        <div className={foods ? "grid grid-cols-4 gap-4" : "text-center"}>
+        <div
+          className={
+            foods ? "grid lg:grid-cols-4 sm:grid-cols-1 gap-4" : "text-center"
+          }
+        >
           {foods === null ? (
             <NotFound />
           ) : (
