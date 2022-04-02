@@ -16,7 +16,7 @@ const FoodRecipe = () => {
     <div>
       <div
         className={`${
-          isLoading ? "hidden" : "grid lg:grid-cols-2 sm:grid-cols-1"
+          isLoading ? "hidden" : "grid lg:grid-cols-2 sm:grid-cols-1 "
         }`}
       >
         <div className="flex justify-center items-center mt-12">
