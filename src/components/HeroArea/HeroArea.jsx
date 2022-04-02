@@ -14,12 +14,14 @@ const HeroArea = () => {
           minus dolore vel ducimus, quisquam hic atque autem ab sapiente sunt
           fugiat eum!
         </p>
-        <button className="text-white mb-5 p-3 flex justify-center  rounded bg-red-700 w-52">
-          Order Food <ArrowRightIcon className="w-6 h-6 ml-3" />
-        </button>
-        <button className="text-white p-3 mb-5 flex justify-center  rounded bg-red-700 w-52">
-          Partner With Us <BriefcaseIcon className="w-6 h-6 ml-3" />
-        </button>
+        <div className="sm:mx-auto lg:mx-0">
+          <button className="text-white mb-5 p-3 flex justify-center  rounded bg-red-700 w-52">
+            Order Food <ArrowRightIcon className="w-6 h-6 ml-3" />
+          </button>
+          <button className="text-white p-3 mb-5 flex justify-center  rounded bg-red-700 w-52">
+            Partner With Us <BriefcaseIcon className="w-6 h-6 ml-3" />
+          </button>
+        </div>
       </div>
       <div className="sm:order-none lg:order-1">
         <img
